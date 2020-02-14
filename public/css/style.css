@@ -15807,11 +15807,11 @@ h3 {
   border: none;
   background-color: #f3f3f3;
 }
-.bannershop .boutonsale {
-  border: none;
-  border-radius: 30%;
-  padding: none;
-  height: 60%;
+.bannershop #room {
+  background-image: url(../../public/img/services/service-1.jpg);
+  background-size: cover;
+  width: 100%;
+  border: white 8px solid;
 }
 
 /*# sourceMappingURL=style.css.map */
