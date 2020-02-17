@@ -15937,14 +15937,24 @@ h3 {
   background-color: #f3f3f3;
   border: none;
 }
-.bannershop .card-img {
+
+#section2 .row .col-4:first-child {
+  background-image: url(../../public/img/services/service-1.jpg);
+}
+#section2 .row .col-4:nth-child(2) {
+  background-image: url(../../public/img/services/service-1.jpg);
+}
+#section2 .row .col-4:last-child {
+  background-image: url(../../public/img/services/slider-3.jpg);
+}
+#section2 .card-img {
   display: flex;
 }
-.bannershop .card {
+#section2 .card {
   border: none;
   background-color: #f3f3f3;
 }
-.bannershop #room {
+#section2 #room {
   background-image: url(../../public/img/services/service-1.jpg);
   background-size: cover;
   width: 100%;
