@@ -1,11 +1,30 @@
-@import "./_font"
+@import "./_font.sass"
 @import "./_icone"
 @import "./_variable.sass"
 @import "../../node_modules/bootstrap/scss/bootstrap.scss"
 
 
 //trouver une solution pour l'espacement entre les rubriques plus tard 
+body 
+    font-family: 'heylove'
+
+.modal
     
+    height: 600px
+    width: 1200px
+    background-color: pink
+    position: absolute
+    border: solid black 2px
+
+
+
+header
+    nav
+        ul 
+            .couleur
+                button
+                    height: 25px
+                    width: 25px 
 .bannershop
     background-color: #f3f3f3
     
@@ -19,10 +38,14 @@
         .col-4
             &:first-child
                 background-image: url(../../public/img/services/service-1.jpg)
+                border: solid white 15px
             &:nth-child(2)
-                background-image: url(../../public/img/services/service-1.jpg)
+                background-image: url(../../public/img/services/service-2.jpg)
+                border: solid white 15px
             &:last-child
                 background-image: url(../../public/img/services/slider-3.jpg)
+                border: solid white 15px
+
                 
     
     .card-img

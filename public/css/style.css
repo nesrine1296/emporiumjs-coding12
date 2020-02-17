@@ -1,11 +1,7 @@
 @charset "UTF-8";
 @font-face {
-  font-family: heythere;
-  src: url(../../public/fonts/light.ttf);
-}
-@font-face {
-  font-family: heylove;
-  src: url(../../public/fonts/poppinreg.ttf);
+  font-family: "heylove";
+  src: url("../../public/fonts/Poppins-Regular.ttf");
 }
 /*!
  * Font Awesome Free 5.12.1 by @fontawesome - https://fontawesome.com
@@ -15930,6 +15926,23 @@ h3 {
     border-color: #dee2e6;
   }
 }
+body {
+  font-family: "heylove";
+}
+
+.modal {
+  height: 600px;
+  width: 1200px;
+  background-color: pink;
+  position: absolute;
+  border: solid black 2px;
+}
+
+header nav ul .couleur button {
+  height: 25px;
+  width: 25px;
+}
+
 .bannershop {
   background-color: #f3f3f3;
 }
@@ -15940,12 +15953,15 @@ h3 {
 
 #section2 .row .col-4:first-child {
   background-image: url(../../public/img/services/service-1.jpg);
+  border: solid white 15px;
 }
 #section2 .row .col-4:nth-child(2) {
-  background-image: url(../../public/img/services/service-1.jpg);
+  background-image: url(../../public/img/services/service-2.jpg);
+  border: solid white 15px;
 }
 #section2 .row .col-4:last-child {
   background-image: url(../../public/img/services/slider-3.jpg);
+  border: solid white 15px;
 }
 #section2 .card-img {
   display: flex;

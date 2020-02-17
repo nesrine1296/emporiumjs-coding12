@@ -1,14 +1,56 @@
-let changecolor = document.getElementById (button)[0]
-let body = document.querySelector ('body')
-body.style.backgroundColor = 'white'
+
+
+
+//change color button b&w
+
+let boutonnoir = document.getElementsByClassName('boutonnoir')[0]
+let boutonblanc = document.getElementsByClassName('boutonblanc')[0]
+let navbarre = document.getElementsByTagName('nav')[0]
+
+let body = document.querySelector('body')
 
 
 
 
-changecolor.addEventListener ('click',() => {
 
+boutonnoir.addEventListener ('click',() => {
     body.style.backgroundColor = 'black'
-    
+    body.classList.add("text-light") 
+    navbarre.classList.add("bg-dark text-light")
+    navbarre.classList.remove("bg-light")
+
+
+
 })
+
+
+boutonblanc.addEventListener('click',() =>{
+    body.style.backgroundColor = 'white'
+    body.classList.remove('text-light')
+
+
+})
+
+// navbar part fixed top 
+
+window.addEventListener('scroll',() =>{ 
+    //scroll du  haut vers le bas 
+   if(window.scrollY >= 70){
+    navbarre.classList.add("fixed-top")
+    // scroll du bas vers le haut 
+ } else if (window.scrollY < 70){
+    navbarre.classList.remove("fixed-top")
+}
+
+})
+
+
+
+
+
+
+
+
+
     
     

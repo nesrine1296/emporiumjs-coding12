@@ -1,98 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./public/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./public/css/style.css">
 </head>
 
 
 
 
 
-
 <body>
+  <!--modal part-->
+  <div class="modal container">
+    <div class="container">
+      <div class="row"><input type="text"><input type="text"></div>
+      <div class="row"></div>
+    </div>
+  </div>
 
-<header>
+
+  <header>
     <!--Nav part-->
 
     <div class="container">
-       
-    <h1 class="text-center" >emporium.</h1>
-    <br>
-        
-        
-            
-         <nav class="text-secondary" >
-    
-            <ul class="nav justify-content-center ">
-        
-                <li class="nav-item ">
-                <a class="nav-link active">HOME</a>
-                </li>
 
-            
-        
-                <li class="nav-item">
-                <a class="nav-link">PRODUCT</a>
-                </li>
-        
-                <li class="nav-item">
-                <a class="nav-link">BLOG</a>
-                </li>
-        
-                <li class="nav-item">
-                <a class="nav-link active">ELEMENTS</a>
-                </li>
-        
-                <li class="nav-item">
-                <a class="nav-link">ABOUT</a>
-                </li>
-        
-                <li class="nav-item">
-                <a class="nav-link">CONTACT</a>
-                </li>
-    
-    
-                <!--Changeur de couleur du site black and white  -->
-        
-                <button><i class="fas fa-paint-brush" id="changecolor"></i>
-                </button>
-                
-                <button class="boutonmodal bg-secondary text-white">CONNEXION</button>
-            </ul>
-        </nav>
-        
-    </div>
-    
-</header>
-<!--end nav -->
-<!--section1 banner shop -->
-               <!--banniére -->
+      <h1 class="text-center">emporium.</h1>
+      <br>
 
-               <br>
-               <br>
-               
-<section class="bannershop">
+      </div>
+
+<!--navbar + toggler-->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-between align-items-center  ">
+  <h1 class="bold display-4 ">emporium.</h1>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse d-flex justify-content-center align-items-center" id="navbarNav">
+
+    <ul class="navbar-nav">
+
+      <li class="nav-item active">
+
+        <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="#">PRODUCT </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">BLOG</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#">ELEMENTS</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#">ABOUT</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#">CONTACT</a>
+      </li>
+
+      <!--Changeur de couleur du site black and white  -->
+      
+      <li class="couleur">
+        <button class="btn boutonblanc bg-light border border-dark "></button>
+      
+        <button class=" btn boutonnoir bg-dark border border-light"></button>
+      </li>
+      
+      <li>
+        <button class="boutonmodal bg-secondary text-white">CONNEXION</button>
+      </li>
+     
+    </ul>
+  </div>
+</nav>
+
+
+
+    
+
+  </header>
+  <!--end nav -->
+  <!--section1 banner shop -->
+  <!--banniére -->
+
+  <br>
+  <br>
+
+  <section class="bannershop">
     <div class="container">
-        <div class="banner">
+      <div class="banner">
 
-            <div class="card mb-3 " style="max-width: 1000px;">
-                <div class="row no-gutters">
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <br>
-                      <br>
-                      <br>
-                      <h1 class="card-title text-danger">Shop at</h1>
-                      <img src="./public/img/logo.png" alt="">
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <button class="btn btn-danger rounded-pill">SALE ITEMS</button>
-                    </div>
-                  </div>
-                  <div class="col-md-4">
-                    <img src="./public/img/slider-1.jpg" class="card-img" ">
+        <div class="card border-0 mb-3 " style="max-width: 1000px;">
+          <div class="row no-gutters border-0">
+            <div class="col-md-8">
+              <div class="card-body border-0">
+                <br>
+                <br>
+                <br>
+                <h1 class="card-title text-danger">Shop at</h1>
+                <img src="./public/img/logo.png" alt="">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+                <button class="btn btn-danger rounded-pill">SALE ITEMS</button>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <img src="./public/img/slider-1.jpg" class="card-img" ">
                   </div>
                 </div>
               </div>
@@ -110,427 +133,453 @@
   
  
 
-<div class="container-fluid" id="section2">
+<div class=" container-fluid " id="section2">
 
-  <div class="row">
+              <div class="row">
 
-      <div class="col-4 img1 text-center py-3 text-white my-4 col-sm-12 col-lg-4 p-3">
+                <div class="col-4 img1 text-center py-3 text-white my-4 col-sm-12 col-lg-4 p-3 ">
 
-          <h4 class="mt-5">lIVING ROOM</h4>
+                  <h4 class="mt-5">LIVING ROOM</h4>
 
-          <hr class="mb-5 bg-white w-75">
+                  <hr class="mb-5 bg-white w-75">
 
-      </div>
+                </div>
 
-      <div class="col-4 img2 text-center py-3 text-white  my-4 col-sm-12 col-lg-4">
+                <div class="col-4 img2 text-center py-3 text-white  my-4 col-sm-12 col-lg-4">
 
-          <h4 class="mt-5">SALES ITEM</h4>
+                  <h4 class="mt-5">SALES ITEM</h4>
 
-          <hr class="mb-5 bg-white w-75">
+                  <hr class="mb-5 bg-white w-75">
 
-      </div>
+                </div>
 
-      <div class="col-4 img3 text-center py-3 text-white  my-4 col-sm-12 col-lg-4">
+                <div class="col-4 img3 text-center py-3 text-white  my-4 col-sm-12 col-lg-4">
 
-          <h4 class="mt-5">CLOTHES</h4>
+                  <h4 class="mt-5">CLOTHES</h4>
 
-          <hr class="mb-5 bg-white w-75">
+                  <hr class="mb-5 bg-white w-75">
 
-      </div>
+                </div>
 
-  </div>
+              </div>
 
-  </div>
-
-
-
-
-
-
-<!--end room sale clothes part-->
-<!--section3 gallerie -->
-<section>
-  <div class="container">
-    <br>
-    <br>
-    <h3 class="text-center">Recents products</h3>
-    <br>
-<!--sofa-->
-
-<div class="row">
-<div class="col-4">
-<img src="./public/img/products_mini/product-luxry-sofa.jpg" class="img-fluid p-2" >
-<br>
-<h5 class="text-center">
-Luxury Sofa
-</h5>
-<h5 class="text-danger text-center" >$600,00
-</div>
-
-      
-  <!--gants-->
-
-  <div class="col-4">
-  <img src="./public/img/products_mini/product-gloves.jpg" class="img-fluid p-2">
-  <div class="salegloves text-center">
-  <div class="row"> 
-  <div class="col-4 text-center">
-  <br>
-  <div class="rounded-circle p-3 bg-danger text-white small d-inline"> SALE!
-  </div>
-  </div>
-  <div class="col-4">
-    <br>
-    <h5 class="text-center " >
-     Leather Gloves
-   </h5>
- 
-  <!--prix soldé-->
-
-   <h5>
-   <s class="text-secondary text-center d-inline" > $34,00</s> <span class="text-danger ">$27,00 </span>
-  </h5>  
-  
-  </div>
-  
-  </div>
-    
-  </div>
-
-  </div>
-        
-<!--bols-->
-
-  <div class="col-4">
-  <img src="./public/img/products_mini/product-cups.jpg" class="img-fluid p-2" >
-  <h5 class="text-center">
-  Colorful Bowl
-  </h5>
-  <h5 class="text-danger text-center">$18,00</h5>
-  </div>
-  </div>
-
-
-<!--sac-->
-
-<div class="row">
-  <div class="col-4 text-center">
-  <img src="./public/img/products_mini/product-bag.jpg" class="img-fluid p-2">
-    <h5 class="text-center">Women Bag</h5>
-    <h5>
-    <s class="text-secondary text-center" > $420,00</s> <span class="text-danger"> $350,00 </span>
-
-    </h5>  
-  
-   </div>
-
-<!--t-shirt-->
-
-  <div class="col-4">
-    <img src="./public/img/products_mini/product-tshitr.jpg" class="img-fluid p-2">
-      <h5 class="text-center" >
-
-         Minimal T-Shirt
-         </h5>
-
-         <h5 class="text-danger text-center" >$15,00</h5>
-   </div>
-   <!--assiettes-->
-
-  <div class="col-4">
-    <img src="./public/img/products_mini/product-plates.jpg" class="img-fluid p-2">
-      <h5 class="text-center">
-        Plates Set 
-      </h5>
-      <h5 class="text-danger text-center" >$30,00</h5>
-      </div>
-    </div>
-
-
-
-<!--canapé-->
-
-  <div class="row">
-    <div class="col-4">
-    <img src="./public/img/products_mini/product-modern-sofa.jpg" class="img-fluid p-2">
-    <h5 class="text-center">
-      Modern Sofa 
-    </h5>
-    <h5 class="text-danger text-center" >$900,00</h5>
-  </div>
-
-<!--lit-->
-
-  <div class="col-4">
-    <img src="./public/img/products_mini/product-bed.jpg" class="img-fluid p-2">
-    <h5 class="text-center" >
-      Bed Linen
-   </h5>
-   <h5 class="text-danger text-center" >$79,00</h5>
-   </div>
-   <div class="col-4">
-    <img src="./public/img/products_mini/product-shoes.jpg" class="img-fluid p-2">
-      <h5 class="text-center">
-        Minimal Shoes
-      </h5>
-      <h5 class="text-danger text-center" >$60,00</h5>
-      
-       </div>
-</div>
-
-  </div>
-
-</section>
-
-<br>
-<br>
-<br>
-<br>
-<br>
-
-
-<!--end section3 gallerie-->
-<!--début section 4-->
-<section class="section4">
-
-  <div class="card bg-dark text-white">
-  <img src="./public/img/cta-bg.jpg" class="card-img">
-  
-  <!--bootstrap cap img -->
-  <div class="card-img-overlay d-flex justify-content-center align-items-center flex-column ">
-  
-    <!--quote-->
-    <h1 class="Discover"> Discover Thousands of great Products </h1>
-
-  
-   <!--button-->
-   <button class="btn-danger"> LEARN MORE </button>
-  
-   </div>
-  </div>
-
-</section>
-
-
-<!--end section 4-->
-
-<!--debut section5 carousel -->
-
-
-
-
-<!--end section 5-->
-
-<!--début section 6  before footer-->
-<section class="section6"> 
-
-<br>
-<br>
-<br>
-
-<div class="row">
-
-  <!--TRUSTED-->
-  <div class="col-4 bg-light">
-    <div class="div d-flex justify-content-center align-items-center flex-column">
-      <i class="far fa-check-circle p-3"></i>
-      <br>
-      <strong>
-        
-        TRUSTED BY 10,000+CUSTOMERS
-      </strong>
-      
-      <br>
-        <p class="text-center">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis asperiores,
-        dolor quis unde quos impedit quidem nemo.
-        
-        </p>
-        <br>
-        <button class="bg-dark text-white border-0" >LEARN MORE</button>
-    </div>
-  </div>
-
-
-
-<!--SHIPPING-->
-
-<div class="col-4 bg-danger">
-  <div class="div d-flex justify-content-center align-items-center flex-column">
-    <i class="fas fa-paper-plane p-3 text-white"></i>
-    <br>
-    <strong class="text-white">
-      VERY FAST SHIPPING
-    </strong>
-    <br>
-      <p class="text-center text-white">
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis asperiores,
-      dolor quis unde quos impedit quidem nemo.
-     
-      </p>
-      <br>
-      <button class="bg-white text-dark border-0" >LEARN MORE</button>
-  </div>
-</div>
-
-
-  <!--TRSUTED-->
-
-  <div class="col-4 bg-light ">
-    <div class="div d-flex justify-content-center align-items-center flex-column">
-      <i class="far fa-check-circle p-3"></i>
-      <br>
-      <strong>
-          TRUSTED BY 10,000+CUSTOMERS
-      </strong>
-      <br>
-        <p class="text-center ">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis asperiores,
-        dolor quis unde quos impedit quidem nemo.
-        
-        </p>
-        <br>
-        <button class="bg-dark text-white border-0" >LEARN MORE</button>
-    </div>
-    <br>
-  </div>
-
-</section>
-
-<!--end section 6-->
-
-
-
-
-
-
-<!--section 7 grey part-->
-
-<br>
-<br>
-<br>
-
-<!--let's start-->
-<div class="bg-dark">
-
-  <div class="container">
-    
-    <section class="section7">
-      
-      <div class="row bg-dark">
-        
-        <!--ABOUT US-->
-        <div class="col-4">
-          
-          <h6 class="text-white p-3">ABOUT US</h6>
-          
-          <p class="text-white-50">
-
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis quos illum velit a maiores, ipsa delectus itaque et. Autem perferendis delectus officiis ratione dicta provident numquam voluptatem, veritatis incidunt amet.
-            
-          </p>
-        </div>
-        <!--RECENT POSTS-->
-        <div class="col-4">
-      <h6 class="text-white p-3">RECENT POSTS</h6>
-      <P class="text-white">
-        >Hello World
-        <br>
-        >Wonderful serenity
-        <br>
-        >In my soul and absorb it's power
-        <br>
-        >I hear the buzz of the little 
-        
-      </P>
-      
-      
-    </div>
-    
-    <!--TAG CLOUD-->
-    <div class="col-4 ">
-      <h6 class="text-white p-3">TAG CLOUD</h6>
-      
-      <div class="button p-1">
-        
-        <button class="btn btn-outline-secondary" >business
-        </button>
-        
-        <button class="btn btn-outline-secondary" >confidence
-        </button>
-        
-        <button class="btn btn-outline-secondary" >gadgets
-        </button>
-        
-      </div>
-      
-      
-      <div class="button p-1">
-        
-        <button class="btn btn-outline-secondary" >identity
-        </button>
-        
-        <button class="btn btn-outline-secondary" >logo
-        </button>
-        
-        <button class="btn btn-outline-secondary" >photography
-        </button>
-        
-        
-      </div>
-      
-      
-      <div class="button p-1">
-        
-        <button class="btn btn-outline-secondary" >time
-        </button>
-        
-        <button class="btn btn-outline-secondary" >trips
-        </button>
-        
-        <button class="btn btn-outline-secondary" >works
-        </button>
-        
-      </div>
-      
-      <div class="button p-1">
-        <button class="btn btn-outline-secondary">work space
-        </button>
             </div>
-            
-            
-            
-            
-            
-            
-          </div>
-          
-        </div>
-        
-      </div>
-      
-      
+
+
+
+
+
+
+            <!--end room sale clothes part-->
+            <!--section3 gallerie -->
+            <section>
+              <div class="container">
+                <br>
+                <br>
+                <h3 class="text-center">Recents products</h3>
+                <br>
+                <!--sofa-->
+
+                <div class="row">
+                  <div class="col-4">
+                    <img src="./public/img/products_mini/product-luxry-sofa.jpg" class="img-fluid p-2">
+                    <br>
+                    <h5 class="text-center">
+                      Luxury Sofa
+                    </h5>
+                    <h5 class="text-danger text-center">$600,00
+                  </div>
+
+
+                  <!--gants-->
+
+                  <div class="col-4">
+                    <img src="./public/img/products_mini/product-gloves.jpg" class="img-fluid p-2">
+                    <div class="salegloves text-center">
+                      <div class="row">
+                        <div class="col-4 text-center">
+                          <br>
+                          <div class="rounded-circle p-3 bg-danger text-white small d-inline"> SALE!
+                          </div>
+                        </div>
+                        <div class="col-4">
+                          <br>
+                          <h5 class="text-center ">
+                            Leather Gloves
+                          </h5>
+
+                          <!--prix soldé-->
+
+                          <h5>
+                            <s class="text-secondary text-center d-inline"> $34,00</s> <span class="text-danger ">$27,00
+                            </span>
+                          </h5>
+
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <!--bols-->
+
+                  <div class="col-4">
+                    <img src="./public/img/products_mini/product-cups.jpg" class="img-fluid p-2">
+                    <h5 class="text-center">
+                      Colorful Bowl
+                    </h5>
+                    <h5 class="text-danger text-center">$18,00</h5>
+                  </div>
+                </div>
+
+
+                <!--sac-->
+
+                <div class="row">
+                  <div class="col-4 text-center">
+                    <img src="./public/img/products_mini/product-bag.jpg" class="img-fluid p-2">
+                    <h5 class="text-center">Women Bag</h5>
+                    <h5>
+                      <s class="text-secondary text-center"> $420,00</s> <span class="text-danger"> $350,00 </span>
+
+                    </h5>
+
+                  </div>
+
+                  <!--t-shirt-->
+
+                  <div class="col-4">
+                    <img src="./public/img/products_mini/product-tshitr.jpg" class="img-fluid p-2">
+                    <h5 class="text-center">
+
+                      Minimal T-Shirt
+                    </h5>
+
+                    <h5 class="text-danger text-center">$15,00</h5>
+                  </div>
+                  <!--assiettes-->
+
+                  <div class="col-4">
+                    <img src="./public/img/products_mini/product-plates.jpg" class="img-fluid p-2">
+                    <h5 class="text-center">
+                      Plates Set
+                    </h5>
+                    <h5 class="text-danger text-center">$30,00</h5>
+                  </div>
+                </div>
+
+
+
+                <!--canapé-->
+
+                <div class="row">
+                  <div class="col-4">
+                    <img src="./public/img/products_mini/product-modern-sofa.jpg" class="img-fluid p-2">
+                    <h5 class="text-center">
+                      Modern Sofa
+                    </h5>
+                    <h5 class="text-danger text-center">$900,00</h5>
+                  </div>
+
+                  <!--lit-->
+
+                  <div class="col-4">
+                    <img src="./public/img/products_mini/product-bed.jpg" class="img-fluid p-2">
+                    <h5 class="text-center">
+                      Bed Linen
+                    </h5>
+                    <h5 class="text-danger text-center">$79,00</h5>
+                  </div>
+                  <div class="col-4">
+                    <img src="./public/img/products_mini/product-shoes.jpg" class="img-fluid p-2">
+                    <h5 class="text-center">
+                      Minimal Shoes
+                    </h5>
+                    <h5 class="text-danger text-center">$60,00</h5>
+
+                  </div>
+                </div>
+
+              </div>
+
+            </section>
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+
+
+            <!--end section3 gallerie-->
+            <!--début section 4-->
+            <section class="section4">
+
+              <div class="card bg-dark text-white">
+                <img src="./public/img/cta-bg.jpg" class="card-img">
+
+                <!--bootstrap cap img -->
+                <div class="card-img-overlay d-flex justify-content-center align-items-center flex-column ">
+
+                  <!--quote-->
+                  <h1 class="Discover"> Discover Thousands of great Products </h1>
+
+
+                  <!--button-->
+                  <button class="btn-danger"> LEARN MORE </button>
+
+                </div>
+              </div>
+
+            </section>
+
+
+            <!--end section 4-->
+
+            <!--debut section5 carousel -->
+
+
+
+
+            <!--end section 5-->
+
+            <!--début section 6  before footer-->
+            <section class="section6">
+
+              <br>
+              <br>
+              <br>
+
+              <div class="row">
+
+                <!--TRUSTED-->
+                <div class="col-4 bg-light text-dark">
+                  <div class="div d-flex justify-content-center align-items-center flex-column">
+                    <i class="far fa-check-circle p-3"></i>
+                    <br>
+                    <strong>
+
+                      TRUSTED BY 10,000+CUSTOMERS
+                    </strong>
+
+                    <br>
+                    <p class="text-center">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis asperiores,
+                      dolor quis unde quos impedit quidem nemo.
+
+                    </p>
+                    <br>
+                    <button class="bg-dark text-white border-0">LEARN MORE</button>
+                  </div>
+                </div>
+
+
+
+                <!--SHIPPING-->
+
+                <div class="col-4 bg-danger">
+                  <div class="div d-flex justify-content-center align-items-center flex-column">
+                    <i class="fas fa-paper-plane p-3 text-white"></i>
+                    <br>
+                    <strong class="text-white">
+                      VERY FAST SHIPPING
+                    </strong>
+                    <br>
+                    <p class="text-center text-white">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis asperiores,
+                      dolor quis unde quos impedit quidem nemo.
+
+                    </p>
+                    <br>
+                    <button class="bg-white text-dark border-0">LEARN MORE</button>
+                  </div>
+                </div>
+
+
+                <!--TRSUTED-->
+
+                <div class="col-4 bg-light text-dark">
+                  <div class="div d-flex justify-content-center align-items-center flex-column">
+                    <i class="far fa-check-circle p-3"></i>
+                    <br>
+                    <strong>
+                      TRUSTED BY 10,000+CUSTOMERS
+                    </strong>
+                    <br>
+                    <p class="text-center ">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis asperiores,
+                      dolor quis unde quos impedit quidem nemo.
+
+                    </p>
+                    <br>
+                    <button class="bg-dark text-white border-0">LEARN MORE</button>
+                  </div>
+                  <br>
+                </div>
+
+            </section>
+
+            <!--end section 6-->
+
+
+
+
+
+
+            <!--section 7 grey part-->
+
+            <br>
+            <br>
+            <br>
+
+            <!--let's start-->
+            <div class="bg-dark">
+
+              <div class="container">
+
+                <section class="section7">
+
+                  <div class="row bg-dark">
+
+
+
+
+                    <!--ABOUT US-->
+
+
+                    <div class="col-4">
+
+                      <h6 class="text-white p-3">ABOUT US</h6>
+
+                      <p class="text-white-50">
+
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis quos illum velit a
+                        maiores, ipsa delectus itaque et. Autem perferendis delectus officiis ratione dicta provident
+                        numquam voluptatem, veritatis incidunt amet.
+
+                      </p>
+                    </div>
+
+
+
+
+
+
+
+                    <!--RECENT POSTS-->
+
+
+                    <div class="col-4">
+                      <h6 class="text-white p-3">RECENT POSTS</h6>
+                      <P class="text-white">
+                        >Hello World
+                        <br>
+                        >Wonderful serenity
+                        <br>
+                        >In my soul and absorb it's power
+                        <br>
+                        >I hear the buzz of the little
+
+                      </P>
+
+
+                    </div>
+
+
+
+
+
+
+
+                    <!--TAG CLOUD-->
+
+
+                    <div class="col-4 ">
+                      <h6 class="text-white p-3">TAG CLOUD</h6>
+
+                      <div class="button p-1">
+
+                        <button class="btn btn-outline-secondary">business
+                        </button>
+
+                        <button class="btn btn-outline-secondary">confidence
+                        </button>
+
+                        <button class="btn btn-outline-secondary">gadgets
+                        </button>
+
+                      </div>
+
+
+                      <div class="button p-1">
+
+                        <button class="btn btn-outline-secondary">identity
+                        </button>
+
+                        <button class="btn btn-outline-secondary">logo
+                        </button>
+
+                        <button class="btn btn-outline-secondary">photography
+                        </button>
+
+
+                      </div>
+
+
+                      <div class="button p-1">
+
+                        <button class="btn btn-outline-secondary">time
+                        </button>
+
+                        <button class="btn btn-outline-secondary">trips
+                        </button>
+
+                        <button class="btn btn-outline-secondary">works
+                        </button>
+
+                      </div>
+
+                      <div class="button p-1">
+                        <button class="btn btn-outline-secondary">work space
+                        </button>
+                      </div>
+
+
+
+
+
+
+                    </div>
+
+                  </div>
+
+              </div>
+
+
+            </div>
+  </section>
+
+
+
+  <!--section7 end-->
+  <!--footer copyright-->
+
+  <footer>
+    <div class="text-white-50 d-flex bg-black justify-content-center align-items-center flex-column my 0 ">
+      <p class="p-4 mb-0">COPYRIGHT 2020 GOODLAYERS, ALL RIGHT RESERVED</p>
+
     </div>
-    </section>
-    
 
-
-<!--section7 end-->
-<!--footer copyright-->
-
-<footer>
-  <div class="text-white-50 d-flex bg-black justify-content-center align-items-center flex-column my 0 " >
-  <p class="p-4 mb-0">COPYRIGHT 2020 GOODLAYERS, ALL RIGHT RESERVED</p>
-    
-  </div>
- 
-</footer>
+  </footer>
 
 
 
 
 
 
-<script src="./public/js/script.js"></script>
+  <script src="./public/js/script.js"></script>
 </body>
+
 </html>
