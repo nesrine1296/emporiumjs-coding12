@@ -15937,6 +15937,9 @@ body header nav ul .couleur button {
 .bannershop {
   background-color: #f3f3f3;
 }
+.bannershop .card {
+  background-color: #f3f3f3;
+}
 .bannershop .banner {
   background-color: #f3f3f3;
   border: none;
@@ -15966,6 +15969,14 @@ body header nav ul .couleur button {
   background-size: cover;
   width: 100%;
   border: white 8px solid;
+}
+
+#modal {
+  position: fixed;
+  top: 20;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

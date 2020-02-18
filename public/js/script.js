@@ -44,6 +44,37 @@ window.addEventListener('scroll',() =>{
 
 })
 
+//modal part
+
+
+let modal = document.getElementById('modal')
+modal.style.display = 'none'
+let buttonConnexion = document.getElementById('BtnModal')
+let buttonDone = document.getElementsByClassName('btnDone')
+
+
+buttonConnexion.addEventListener('click', ()=>{
+
+    modal.style.display = 'block'
+
+})
+
+
+
+// buttonDone.removeEventListener('click', ()=>{
+
+//     modal.style.display = 'none'
+
+// })
+
+
+
+
+
+
+
+
+
 
 
 
